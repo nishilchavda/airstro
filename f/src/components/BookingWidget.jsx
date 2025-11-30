@@ -110,7 +110,7 @@ function BookingWidget() {
           <div>
             <label className="text-sm text-gray-600 mb-2 block">From</label>
             <Input
-              placeholder="Delhi, DEL"
+              placeholder="Where from?"
               className="h-12"
               value={from}
               onChange={(e) => setFrom(e.target.value)}
